@@ -1,0 +1,27 @@
+.outputData, .iconStyle, .selectStyle, .inputStyle{
+    margin: 10px;
+}
+
+.outputData {
+    display: flex;
+    flex-direction: row;
+}
+
+.iconStyle {
+    font-size: 30px;
+}
+
+.selectStyle {
+    width: 120px;
+}
+
+.cardStyle {
+    width: 500px;
+    white-space: pre-line;
+
+}
+
+.inputStyle {
+    width: 293px;
+}
+

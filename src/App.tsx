@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Convertor from './components/widgets/convertor/Convertor';
+import Convertor from './widgets';
 
 function App() {
   return (

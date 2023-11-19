@@ -9,5 +9,7 @@ export enum Currency {
 }
 
 export const api = {
-  convert: (inputCurrency: Currency, outputCurrency: Currency, amount: number | string) => axios.get(`${cryptoURL}/${inputCurrency}/${outputCurrency}?amount=${amount}`),
+  getConvertedValue:
+      (inputCurrency: Currency, outputCurrency: Currency, amount: number | string) => axios
+        .get(`${cryptoURL}/${inputCurrency}/${outputCurrency}?amount=${amount}`),
 };
